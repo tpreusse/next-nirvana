@@ -1,0 +1,27 @@
+{
+  "name": "next-nirvana",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "markdown-in-js": "^1.1.3",
+    "next": "^2.0.0-beta",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      "include",
+      "markdown-in-js/babel"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-include": "^1.2.0"
+  }
+}
