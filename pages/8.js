@@ -13,7 +13,7 @@ You can easily inject into \`<head>\`
       `}
       <Code>{include('../snippets/meta.js')}</Code>
       {md({code: InlineCode})` 
-from anywhere in your component tree
+from anywhere in your component tree.
       `}
     </Layout>
   </Slide>

@@ -13,7 +13,7 @@ export default ({url}) => (
 # One simple convention
 
 Every \`js\` file inside the  \`pages\` directory  
-becomes a route
+becomes a route.
 
 And pages are just React components.
       `}

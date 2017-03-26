@@ -10,7 +10,7 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-\`styled-jsx\` with a runtime size of only 2kb is build-in
+\`styled-jsx\` with a runtime size of only 2kb is build-in:
       `}
       <Grid>
         <Span>

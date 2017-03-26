@@ -11,7 +11,7 @@ export default ({url}) => (
       {md({code: InlineCode})`
 # What about data loading?
 \`pages\` have a lifecycle. 
-The React lifecycle. *With one addition:*
+The React lifecycle, *with one addition:*
 
 \`static async getInitialProps\` — a lifecycle hook to load data
 
@@ -21,7 +21,7 @@ For example \`pages/about.js\` could load a json
       `}
       <Code>{include('../snippets/getInitialProps.js')}</Code>
       {md({code: InlineCode})`
-and server rendered version would contain the data.
+and the server rendered version would contain the data.
       `}
     </Layout>
   </Slide>

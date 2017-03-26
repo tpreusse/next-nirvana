@@ -9,8 +9,8 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-You can use any CSS-in-JS solution that support server rendering  
-with a custom \`<Document>\` component
+You can use any CSS-in-JS solution that supports server rendering  
+with a custom \`<Document>\` component:
       `}
       <Code>{include('../snippets/_document.js')}</Code>
       {md({code: InlineCode})`

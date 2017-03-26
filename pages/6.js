@@ -9,7 +9,7 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-Routing is taken care of
+Routing is taken care of:
       `}
       <Code>{include('../snippets/router.js')}</Code>
     </Layout>

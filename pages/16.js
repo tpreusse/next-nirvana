@@ -10,8 +10,8 @@ export default ({url}) => (
     <Layout>
       {md({code: InlineCode})`
 Next.js comes with [over 40 examples](https://github.com/zeit/next.js/tree/master/examples).  
-[\`with-apollo\`](https://github.com/zeit/next.js/tree/master/examples/with-apollo) by [\`github.com/ads1018\`](https://github.com/ads1018)  
-is one of them.
+
+[\`with-apollo\`](https://github.com/zeit/next.js/tree/master/examples/with-apollo) by [\`github.com/ads1018\`](https://github.com/ads1018) is one of them.
 
 And Apollo is:  
 *The fully-featured, production ready*  
@@ -21,7 +21,7 @@ The example provides a higher-order component (HOC)
 that integrates \`react-apollo\` and allows to query  
 GraphQL anywhere in your component tree.
 
-All you need to do is wrap your page \`withData\`,  
+All you need to do is wrap your page in \`withData\`,  
 e.g. \`pages/about.js\`:
       `}
       <Code>{include('../snippets/wrappedPage.js')}</Code>

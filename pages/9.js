@@ -9,7 +9,7 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-Things you **can't** do
+Things you **can't** do:
 
 \`require('./image.png')\` and \`require('./style.css')\`
       `}

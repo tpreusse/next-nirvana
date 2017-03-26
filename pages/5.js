@@ -16,7 +16,7 @@ Behind the scene you get
 - hot code reloading
 - server rendering
 
-for free
+for free.
       `}
     </Layout>
   </Slide>
