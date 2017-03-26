@@ -10,7 +10,7 @@ export default ({url}) => (
     <Layout>
       <Code>{include('../snippets/withData.js')}</Code>
       {md({code: InlineCode})`
-\`getInitialProps\` performs a \`getDataFromTree\` when server rendering
+\`getInitialProps\` performs a \`getDataFromTree\` when server rendering.
       `}
     </Layout>
   </Slide>

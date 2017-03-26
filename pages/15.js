@@ -9,9 +9,11 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-But \`getInitialProps\` is only available on \`pages\`.
+Note: \`getInitialProps\` is only available in \`pages\` components.
 
-And it's not GraphQL yet.
+*Ask questions about the flow and \`getInitialProps\` now.*
+
+Next: GraphQL
       `}
     </Layout>
   </Slide>

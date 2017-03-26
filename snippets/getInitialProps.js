@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default class extends React.Component {
-  static async getInitialProps ({ req }) {
-    return fetch('/static/cows.json').then(r => r.json())
+  static async getInitialProps () {
+    return fetch('/static/cows.json')
+      .then(r => ({cows: r.json()}))
   }
   render () {
     return <ul>{this.props.cows.map(cow => (

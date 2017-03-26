@@ -10,7 +10,7 @@ export default ({url}) => (
     <Layout>
       {md({code: InlineCode})`
 You can use any CSS-in-JS solution that supports server rendering  
-with a custom \`<Document>\` component:
+with a custom \`pages/_document.js\` component:
       `}
       <Code>{include('../snippets/_document.js')}</Code>
       {md({code: InlineCode})`

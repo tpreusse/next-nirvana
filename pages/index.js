@@ -8,7 +8,7 @@ export default ({url}) => (
     <Header title={false} />
     <Layout>
       {md`
-# Build with Next.js and GraphQL now
+# Build with Next.js and GraphQL Now
 
 by Thomas Preusse
 

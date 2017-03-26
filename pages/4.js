@@ -10,7 +10,7 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md({code: InlineCode})`
-# One simple convention
+# One Simple Convention
 
 Every \`js\` file inside the  \`pages\` directory  
 becomes a route.

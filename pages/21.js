@@ -13,7 +13,7 @@ Start a server 100% programmatically:
       `}
       <Code>{include('../snippets/customServer.js')}</Code>
       {md({code: InlineCode})`
-Now you have all the power. 
+Now you have all the power. (And solved your little routing problem.)
       `}
     </Layout>
   </Slide>

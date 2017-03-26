@@ -4,7 +4,7 @@ export default ({children, title = true, apollo = false, and = true}) => (
   <div>
     {title && (
       <div className='title'>
-        <h1>Build with Next.js and GraphQL now</h1>
+        <h1>Build with Next.js and GraphQL Now</h1>
         <em>by Thomas Preusse</em>
       </div>
     )}
