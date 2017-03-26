@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import Slide from '../components/Slide'
 import Header from '../components/Header'
 import Layout from '../components/Layout'
-import Code from '../components/Code'
+import {InlineCode} from '../components/Code'
 
 export default class Error extends Component {
   static getInitialProps ({ res, jsonPageRes }) {
@@ -17,13 +17,13 @@ export default class Error extends Component {
         <Header apollo />
         <Layout>
           <p>the end</p>
-          <Code>
+          <InlineCode>
             {
               this.props.statusCode
               ? this.props.statusCode
               : 'Error'
             }
-          </Code>
+          </InlineCode>
         </Layout>
       </Slide>
     )
