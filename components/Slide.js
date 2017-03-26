@@ -40,20 +40,18 @@ class Slide extends PureComponent {
         <div className='next' onClick={() => this.onNext()} />
         <style jsx>{`
           .prev {
-            position: absolute;
+            position: fixed;
             width: 50px;
             left: 0;
             top: 0;
             bottom: 0;
-            cursor: pointer;
           }
           .next {
-            position: absolute;
+            position: fixed;
             width: 50px;
             right: 0;
             top: 0;
             bottom: 0;
-            cursor: pointer;
           }
         `}</style>
       </div>

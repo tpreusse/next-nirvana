@@ -21,8 +21,12 @@ export default ({children, title = true, apollo = false, and = true}) => (
       .logos {
         position: absolute;
         height: 50px;
+        left: 50px;
         right: 50px;
         top: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: right;
       }
       .title {
         position: absolute;
