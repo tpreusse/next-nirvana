@@ -3,9 +3,15 @@ import React, {Component} from 'react'
 export default class extends Component {
   static async getInitialProps () {
     console.log('getInitialProps')
-    return {
-      text: 'Hello'
-    }
+    return new Promise((resolve) => {
+      setTimeout(
+        () => {
+          console.log('getInitialProps resolve')
+          resolve({text: 'Hello'})
+        },
+        400
+      )
+    });
   }
   constructor (props) {
     super(props)
