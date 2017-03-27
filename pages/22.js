@@ -8,8 +8,9 @@ export default ({url}) => (
   <Slide url={url}>
     <Header apollo />
     <Layout>
+      <Code>{include('../snippets/linkAs.js')}</Code>
       {md({code: InlineCode})`
-Don't want all the hustle?
+Don't want the hustle?
 
 Use [\`next-routes\`](https://github.com/fridays/next-routes) or [\`next-url-prettifier\`](https://github.com/BDav24/next-url-prettifier),  
 and setup a \`routes.js\`: 
@@ -18,6 +19,7 @@ and setup a \`routes.js\`:
       {md({code: InlineCode})`
 Reminds me of the good old \`routes.rb\`.
       `}
+      <Code>{include('../snippets/nextRoutesLink.js')}</Code>
     </Layout>
   </Slide>
 )
