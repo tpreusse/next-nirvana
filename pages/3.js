@@ -9,7 +9,7 @@ export default ({url}) => (
     <Header />
     <Layout>
       {md`
-Setting up a Next.js app is easy
+Setting up a Next.js app is easy 
       `}
       <Code>{include('../snippets/package.json')}</Code>
     </Layout>
