@@ -16,9 +16,9 @@ Okey, now we've covered:
 - server rendering
 - data via GraphQL
 
-What if I only have a JSON API?  
+What if I don't have a GraphQL API?  
 *Don't worry, [apollographql/graphql-server](https://github.com/apollographql/graphql-server) allows you to write one.*  
-*I'll show you. But first another thing.*
+*See [open source repo](https://github.com/lobbywatch/website/blob/master/graphql/index.js) at the end. But first another thing.*
       `}
     </Layout>
   </Slide>
