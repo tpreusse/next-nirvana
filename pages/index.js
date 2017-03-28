@@ -10,9 +10,11 @@ export default ({url}) => (
       {md`
 # Build with Next.js and GraphQL Now
 
-by Thomas Preusse
+by [Thomas Preusse](https://twitter.com/tpreusse), Software Engineer at [Project R](https://github.com/orbiting)
 
-[next-nirvana.now.sh](https://next-nirvana.now.sh)
+◀️ ⌨ ️▶️  
+*use keyboard arrows  
+or touch edges to navigate*
       `}
     </Layout>
   </Slide>
