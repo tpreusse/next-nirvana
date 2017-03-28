@@ -12,7 +12,7 @@ export default ({url}) => (
 
 by [Thomas Preusse](https://twitter.com/tpreusse), Software Engineer at [Project R](https://github.com/orbiting)
 
-◀️ ⌨ ️▶️  
+◀️ ⌨️ ▶️  
 *use keyboard arrows  
 or touch edges to navigate*
       `}
