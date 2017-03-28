@@ -11,8 +11,6 @@ export default ({url}) => (
       {md({code: InlineCode})`
 Note: \`getInitialProps\` is only available in \`pages\` components.
 
-*Ask questions about the flow and \`getInitialProps\` now.*
-
 Next: GraphQL
       `}
     </Layout>
